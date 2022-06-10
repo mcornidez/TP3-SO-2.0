@@ -1,5 +1,5 @@
 # TP3_SO
-Trabajo práctico N°3: "Sockets" - '72.11 - Sistemas Operativos' - 2Q2021
+Trabajo práctico N°3: "Sockets" - '72.11 - Sistemas Operativos' - 1Q2022
 
 ## Compilación del trabajo
 Para compilar el trabajo, primero el usuario debe posicionarse en el directorio donde se encuentra
