@@ -56,6 +56,8 @@ int main(){
     beginGame(connectionFd);
 
     close(sockfd);
+
+    return 0;
 }
 
 void beginGame(int sockfd){

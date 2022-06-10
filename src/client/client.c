@@ -37,10 +37,10 @@ void chat(int sockfd){
     int n;
     char c;
     printf("rta: ");
-    while ((c = getchar()) != EOF) {
+    while ((int)(c = getchar()) != EOF) {
         n = 0;
         printf("rta: ");
-        while (c != '\n' && c != EOF) {
+        while (c != '\n' && (int)c != EOF) {
             buff[n++] = c;
             c = getchar();
         }
@@ -48,7 +48,7 @@ void chat(int sockfd){
         buff[n] = 0;
         
         write(sockfd, buff, n);
-        if (c == EOF)
+        if ((int)c == EOF)
             exit(0);
     }
     exit(0);
